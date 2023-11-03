@@ -1,0 +1,26 @@
+\Aufgabenstellung%
+In dieser Aufgabe werden wir den Wireshark-Paket-Sniffer für die Analyse des Domain
+Name System (DNS)-Protokolls verwenden. DNS übersetzt unter anderem Hostnamen
+in IP-Adressen, was eine kritische Funktion für das Internet als Ganzes ist. In dieser
+Aufgabe werden wir einen genaueren Blick auf die Client-Seite von DNS werfen.
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Lokalisieren Sie die DNS-Abfrage- und Antwortnachrichten. Werden sie über UDP
+oder TCP gesendet?
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Wie lautet der Zielport für die DNS-Abfragenachricht? Welches ist der Quellport
+der DNS-Antwortnachricht?
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+An welche IP-Adresse wird die DNS-Abfragenachricht gesendet? Verwenden Sie
+ipconfig, um die IP-Adresse Ihres lokalen DNS-Servers zu ermitteln. Sind diese
+beiden IP-Adressen identisch?
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Untersuchen Sie die DNS-Abfragenachricht. Um welchen `Typ' von DNS-Abfrage
+handelt es sich? Enthält die Abfragenachricht irgendwelche `Antworten'?
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Untersuchen Sie die DNS-Antwortnachricht. Wie viele `Antworten' werden bere-
+itgestellt? Was enthält jede dieser Antworten?
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+etrachten Sie das nachfolgende TCP SYN-Paket, das von Ihrem Host gesendet
+wird. Entspricht die Ziel-IP-Adresse des SYN-Pakets einer der in der DNS-Antwortnachricht
+angegebenen IP-Adressen?

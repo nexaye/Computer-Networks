@@ -1,0 +1,49 @@
+\Aufgabenstellung%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Angenommen, Sie klicken in Ihrem Web-
+browser auf einen Link, um eine Webseite
+aufzurufen. Die IP-Adresse für die zugehörige
+URL ist auf Ihrem lokalen Rechner nicht zwis-
+chengespeichert, so dass eine DNS-Abfrage er-
+forderlich ist, um die IP-Adresse zu erhalten.
+Nehmen wir an, dass nur ein DNS-Server, der
+lokale DNS-Cache, mit einer RTT-Verzögerung
+von RTT0 = 5ms besucht wird. Nehmen wir
+zunächst an, dass die mit dem Link verknüpfte
+Webseite genau ein Objekt enthält, das aus
+einer kleinen Menge von HTML-Text besteht.
+Nehmen wir an, die RTT zwischen dem lokalen
+Host und dem Webserver, der das Objekt en-
+thält, beträgt RTTHTTP = 54 ms, wie in Ab-
+bildung 3 dargestellt.
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Angenommen, die Übertragungszeit für das HTML-Objekt ist gleich Null, wie viel
+Zeit (in ms) vergeht dann von dem Zeitpunkt, an dem der Client auf den Link
+klickt, bis der Client das Objekt erhält?
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Nehmen wir nun an, das HTML-Objekt verweist auf fünf sehr kleine Objekte auf
+demselben Server. Wie viel Zeit (in ms) vergeht - unter Vernachlässigung der
+Übertragungszeiten - von dem Zeitpunkt, an dem der Client auf den Link klickt,
+bis das Basisobjekt und alle fünf zusätzlichen Objekte vom Webserver auf dem
+Client empfangen werden, unter der Annahme von nicht-persistentem HTTP und
+keinen parallelen TCP-Verbindungen?
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Nehmen wir an, das HTML-Objekt verweist auf fünf sehr kleine Objekte auf dem-
+selben Server, aber nehmen wir an, dass der Client so konfiguriert ist, dass er
+maximal fünf parallele TCP-Verbindungen unterstützt, entweder mit (i) nicht-
+persistentem HTTP oder (ii) persistentem HTTP. Was sind die jeweiligen Zeiten
+jetzt?
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Welche Methode ist die schnellste, die wir untersucht haben: nicht-persistent-
+serielles, nicht-persistent-paralleles oder persistent-paralleles HTTP?
+
+
+
+

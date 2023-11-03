@@ -1,0 +1,32 @@
+\Aufgabenstellung%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Abbildung 2 zeigt einen HTTP-Server und einen Client. Nehmen wir an, dass die Round-Trip-Time (RTT) zwischen Client und Server 10 ms beträgt.
+Die Zeit, die ein Server
+benötigt, um ein Objekt auf seinen ausgehenden Link zu übertragen, beträgt 0,75 ms.
+Jede andere HTTP-Nachricht, die kein Objekt enthält, hat eine vernachlässigbare (d.h.null) Übertragungszeit. Gehen Sie davon aus, dass der Client HTTP 1.1 und den IF-
+MODIFIED-SINCE-Header verwendet. Bei den folgenden Fragen können Sie davon
+ausgehen, dass die TCP-Verbindung bereits aufgebaut wurde.
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Wie viel Zeit verstreicht für die erste Anfrage? Ist das angeforderte Objekt in der
+Antwortnachricht enthalten?
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ngenommen, die Datei wurde seit der ersten Anfrage \textbf{NICHT} geändert, wie viel
+Zeit verstreicht dann für die zweite Anfrage? Ist das angeforderte Objekt in der
+Antwortnachricht enthalten?
+
+
+\Teilaufgabe%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Nehmen wir nun an, der Client stellt wieder 70 Anfragen, eine nach der anderen.
+Dabei wartet er auf die Antwort auf eine Anfrage, bevor er die nächste Anfrage
+sendet. Nehmen wir an, 40\% der angeforderten Objekte haben sich NICHT geändert,
+seit der Client sie heruntergeladen hat. Wie viel Zeit vergeht zwischen dem
+Senden der ersten Anfrage durch den Client und dem Abschluss der letzten Anfrage?
+
+
+
+
+
+
